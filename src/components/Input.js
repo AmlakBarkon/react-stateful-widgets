@@ -52,11 +52,11 @@ export default function Input() {
    setInputValue("")
     /* STEP 5 */
   };
-  console.log(inputValue.length)
+ 
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: inputValue.length >=10 ? 'crimson': "royalblue",/* STEP 2 */
+    color: inputValue.length >10 ? 'crimson': "royalblue",/* STEP 2 */
   }
 
   return (
